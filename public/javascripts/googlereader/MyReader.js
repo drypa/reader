@@ -63,11 +63,12 @@ dojo.require('googlereader.MyItem');
                     this.readerDomNode.scrollHeight * this.scrollDelta);
         },
         connectEventHandler:function() {
-            dojo.connect(this.domNode, (dojo.isMozilla ? "DOMMouseScroll" : "onmousewheel" ), this, function(e) {
-                if (this.needLoad()) {
-                    this.loadTitles();
-                }
-            });
+            dojo.connect(this.readerDomNode, "onscroll", this, 'scrolling');
+        },
+        scrolling:function() {
+            if (this.needLoad()) {
+                this.loadTitles();
+            }
         },
         loading:function(state) {
             this.isLoading = state;
