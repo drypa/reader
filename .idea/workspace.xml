@@ -39,7 +39,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="62" selection-end="78" vertical-scroll-proportion="0.15659955">
+            <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.111856826">
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
         <option value="$PROJECT_DIR$/public/javascripts/googlereader/templates/MyItem.html" />
         <option value="$PROJECT_DIR$/public/javascripts/googlereader/MyItem.js" />
         <option value="$PROJECT_DIR$/.gitignote" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -557,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="62" selection-end="78" vertical-scroll-proportion="0.15659955">
+        <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.111856826">
           <folding />
         </state>
       </provider>
